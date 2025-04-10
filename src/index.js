@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
+import {BrowserRouter} from 'react-router-dom'
 // import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
-  <App />,
+  <BrowserRouter>
+   <App />
+  </BrowserRouter>
+ ,
   document.getElementById('root')
 );
 
